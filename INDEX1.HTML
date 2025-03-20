@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+
+        <section class="weather-info">
+            <div class="location-input">
+                <input type="text" id="city-name" placeholder="Enter city or zip code">
+                <button id="search-btn">Search</button>
+            </div>
+
+            <div id="weather-data" class="weather-data">
+                <p id="error-message" class="error-message"></p>
+                <div class="weather-details">
+                    <p id="temperature"></p>
+                    <p id="humidity"></p>
+                    <p id="wind-speed"></p>
+                    <p id="conditions"></p>
+                    <p id="date-time"></p>
+                </div>
+                <div class="forecast">
+                    <h2>Forecast</h2>
+                    <div id="forecast-details"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Weather data powered by OpenWeatherMap</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
