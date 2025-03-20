@@ -1,0 +1,87 @@
+/* Basic styling for the dashboard */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-input {
+    margin-bottom: 20px;
+}
+
+#city-name {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.weather-data {
+    display: none;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+}
+
+.weather-details p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.forecast {
+    margin-top: 20px;
+}
+
+#forecast-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast div {
+    width: 100px;
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
